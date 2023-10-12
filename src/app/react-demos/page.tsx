@@ -5,7 +5,8 @@ import Link from 'next/link'
  * should place all demos here
  */
 const DEMOS = [
-    {title: 'Example Demo(to home)', route: '/'}
+    {title: 'Example Demo(to home)', route: '/'},
+    {title: 'useEffect Demo', route: '/react-demos/use-effect'}
 ] as IDemo[];
 
 export default function ReactDemos() {
