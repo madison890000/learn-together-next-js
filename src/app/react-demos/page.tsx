@@ -12,7 +12,7 @@ const DEMOS = [
 export default function ReactDemos() {
 
   return (
-    <div className="bg-slate-50 min-h-screen">
+    <div className="min-h-screen">
       <h3 className="text-2xl text-center">React Demos</h3>
       <div>
         <ul>

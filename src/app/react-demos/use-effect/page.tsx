@@ -28,7 +28,7 @@ export default function useEffectDemo() {
     setTips(`now age is ${age}`)
   }, [age])
   return (
-    <div className="bg-slate-50 min-h-screen m-2 p-2">
+    <div className="min-h-screen m-2 p-2">
       <h3 className="p-2 h3">React useEffect Demo</h3>
       <button onClick={() => {
         setAge(age => age + 1)
