@@ -6,7 +6,8 @@ import Link from 'next/link'
  */
 const DEMOS = [
   {title: 'Example Demo(to home)', route: '/'},
-  {title: 'useEffect Demo', route: '/react-demos/use-effect'}
+  {title: 'useEffect Demo', route: '/react-demos/use-effect'},
+  {title: 'SWR Demo', route: '/react-demos/swr'}
 ] as IDemo[];
 
 export default function ReactDemos() {
